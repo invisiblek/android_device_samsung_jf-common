@@ -118,6 +118,10 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/sap.conf:/system/etc/sap.conf \
     $(LOCAL_PATH)/configs/izat.conf:/system/etc/izat.conf
 
+# Eleven
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/prebuilt/Eleven.apk:system/app/Eleven/Eleven.apk
+
 # Gello
 PRODUCT_PACKAGES += \
     Gello
