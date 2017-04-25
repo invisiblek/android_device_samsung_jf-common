@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2014 The CyanogenMod Project
+ * Copyright (C) 2017 The LineageOS Project
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-#define CAMERA_PARAMETERS_EXTRA_C \
-const char CameraParameters::KEY_CAMERA_MODE[] = "camera-mode"; \
-const char CameraParameters::KEY_ISO_MODE[] = "iso"; \
+#include "CameraParameters.h"
+
+namespace android {
+
+const char CameraParameters::KEY_CAMERA_MODE[] = "camera-mode";
+const char CameraParameters::KEY_ISO_MODE[] = "iso";
 const char CameraParameters::KEY_SUPPORTED_ISO_MODES[] = "iso-values";
 
-#define CAMERA_PARAMETERS_EXTRA_H \
-    static const char KEY_CAMERA_MODE[]; \
-    static const char KEY_ISO_MODE[]; \
-    static const char KEY_SUPPORTED_ISO_MODES[];
+}; // namespace android

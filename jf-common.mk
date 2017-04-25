@@ -94,7 +94,8 @@ PRODUCT_PACKAGES += \
 # Camera
 PRODUCT_PACKAGES += \
     Snap \
-    camera.msm8960
+    camera.msm8960 \
+    libcamera_parameters_shim
 
 # Display
 PRODUCT_PACKAGES += \
