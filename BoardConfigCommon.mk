@@ -95,11 +95,6 @@ TARGET_ADDITIONAL_GRALLOC_10_USAGE_BITS := 0x02000000U
 # Charger
 BOARD_CHARGER_ENABLE_SUSPEND := true
 
-# Dexpreopt
-# Always preopt extracted APKs to prevent extracting out of the APK
-# for gms modules.
-PRODUCT_ALWAYS_PREOPT_EXTRACTED_APK := true
-
 # Fonts
 EXCLUDE_SERIF_FONTS := true
 
