@@ -151,9 +151,6 @@ BOARD_SEPOLICY_DIRS += $(COMMON_PATH)/sepolicy
 TARGET_PROCESS_SDK_VERSION_OVERRIDE += \
     /system/vendor/bin/hw/android.hardware.sensors@1.0-service.jf=22
 
-# Shipping API Level
-PRODUCT_SHIPPING_API_LEVEL := 17
-
 # Vendor Init
 TARGET_INIT_VENDOR_LIB := libinit_jf
 TARGET_RECOVERY_DEVICE_MODULES := libinit_jf
