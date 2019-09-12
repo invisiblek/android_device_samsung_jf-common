@@ -243,6 +243,9 @@ PRODUCT_COPY_FILES += \
 # System Properties
 $(call inherit-product, $(LOCAL_PATH)/system_prop.mk)
 
+# System Server
+PRODUCT_SYSTEM_SERVER_COMPILER_FILTER := speed-profile
+
 # Thermal
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/thermal-engine-8064ab.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-engine-8064ab.conf
